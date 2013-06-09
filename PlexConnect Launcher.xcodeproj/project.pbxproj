@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6402EDAE17641E73004C915B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402EDAD17641E73004C915B /* Cocoa.framework */; };
+		6402EDB017641E73004C915B /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402EDAF17641E73004C915B /* AppleScriptObjC.framework */; };
+		6402EDBA17641E73004C915B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6402EDB817641E73004C915B /* InfoPlist.strings */; };
+		6402EDBC17641E73004C915B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402EDBB17641E73004C915B /* main.m */; };
+		6402EDC017641E73004C915B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6402EDBE17641E73004C915B /* Credits.rtf */; };
+		6402EDC217641E73004C915B /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 6402EDC117641E73004C915B /* AppDelegate.applescript */; };
+		6402EDC517641E73004C915B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6402EDC317641E73004C915B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6402EDAA17641E73004C915B /* PlexConnect Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlexConnect Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6402EDAD17641E73004C915B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6402EDAF17641E73004C915B /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		6402EDB217641E73004C915B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6402EDB317641E73004C915B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6402EDB417641E73004C915B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6402EDB717641E73004C915B /* PlexConnect Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlexConnect Launcher-Info.plist"; sourceTree = "<group>"; };
+		6402EDB917641E73004C915B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6402EDBB17641E73004C915B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6402EDBD17641E73004C915B /* PlexConnect Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlexConnect Launcher-Prefix.pch"; sourceTree = "<group>"; };
+		6402EDBF17641E73004C915B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6402EDC117641E73004C915B /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		6402EDC417641E73004C915B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6402EDA717641E73004C915B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402EDAE17641E73004C915B /* Cocoa.framework in Frameworks */,
+				6402EDB017641E73004C915B /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6402EDA117641E73004C915B = {
+			isa = PBXGroup;
+			children = (
+				6402EDB517641E73004C915B /* PlexConnect Launcher */,
+				6402EDAC17641E73004C915B /* Frameworks */,
+				6402EDAB17641E73004C915B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6402EDAB17641E73004C915B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6402EDAA17641E73004C915B /* PlexConnect Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6402EDAC17641E73004C915B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6402EDAD17641E73004C915B /* Cocoa.framework */,
+				6402EDAF17641E73004C915B /* AppleScriptObjC.framework */,
+				6402EDB117641E73004C915B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6402EDB117641E73004C915B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6402EDB217641E73004C915B /* AppKit.framework */,
+				6402EDB317641E73004C915B /* CoreData.framework */,
+				6402EDB417641E73004C915B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6402EDB517641E73004C915B /* PlexConnect Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				6402EDC117641E73004C915B /* AppDelegate.applescript */,
+				6402EDC317641E73004C915B /* MainMenu.xib */,
+				6402EDB617641E73004C915B /* Supporting Files */,
+			);
+			path = "PlexConnect Launcher";
+			sourceTree = "<group>";
+		};
+		6402EDB617641E73004C915B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6402EDB717641E73004C915B /* PlexConnect Launcher-Info.plist */,
+				6402EDB817641E73004C915B /* InfoPlist.strings */,
+				6402EDBB17641E73004C915B /* main.m */,
+				6402EDBD17641E73004C915B /* PlexConnect Launcher-Prefix.pch */,
+				6402EDBE17641E73004C915B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6402EDA917641E73004C915B /* PlexConnect Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6402EDC817641E73004C915B /* Build configuration list for PBXNativeTarget "PlexConnect Launcher" */;
+			buildPhases = (
+				6402EDA617641E73004C915B /* Sources */,
+				6402EDA717641E73004C915B /* Frameworks */,
+				6402EDA817641E73004C915B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlexConnect Launcher";
+			productName = "PlexConnect Launcher";
+			productReference = 6402EDAA17641E73004C915B /* PlexConnect Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6402EDA217641E73004C915B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Zachary Owen";
+			};
+			buildConfigurationList = 6402EDA517641E73004C915B /* Build configuration list for PBXProject "PlexConnect Launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6402EDA117641E73004C915B;
+			productRefGroup = 6402EDAB17641E73004C915B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6402EDA917641E73004C915B /* PlexConnect Launcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6402EDA817641E73004C915B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402EDBA17641E73004C915B /* InfoPlist.strings in Resources */,
+				6402EDC017641E73004C915B /* Credits.rtf in Resources */,
+				6402EDC517641E73004C915B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6402EDA617641E73004C915B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402EDBC17641E73004C915B /* main.m in Sources */,
+				6402EDC217641E73004C915B /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6402EDB817641E73004C915B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402EDB917641E73004C915B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6402EDBE17641E73004C915B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402EDBF17641E73004C915B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6402EDC317641E73004C915B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402EDC417641E73004C915B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6402EDC617641E73004C915B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6402EDC717641E73004C915B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6402EDC917641E73004C915B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlexConnect Launcher/PlexConnect Launcher-Prefix.pch";
+				INFOPLIST_FILE = "PlexConnect Launcher/PlexConnect Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6402EDCA17641E73004C915B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlexConnect Launcher/PlexConnect Launcher-Prefix.pch";
+				INFOPLIST_FILE = "PlexConnect Launcher/PlexConnect Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6402EDA517641E73004C915B /* Build configuration list for PBXProject "PlexConnect Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6402EDC617641E73004C915B /* Debug */,
+				6402EDC717641E73004C915B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6402EDC817641E73004C915B /* Build configuration list for PBXNativeTarget "PlexConnect Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6402EDC917641E73004C915B /* Debug */,
+				6402EDCA17641E73004C915B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6402EDA217641E73004C915B /* Project object */;
+}

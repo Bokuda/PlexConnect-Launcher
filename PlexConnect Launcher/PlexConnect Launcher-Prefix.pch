@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PlexConnect Launcher' target in the 'PlexConnect Launcher' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
